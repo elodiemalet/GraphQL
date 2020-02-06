@@ -1,5 +1,7 @@
 type Product {
-    id: Int!
+    id: ID!
     name: String
     price: Float
+    createdTime: Int
+    updatedTime: Int
 }
