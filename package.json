@@ -25,7 +25,8 @@
     "apollo-server": "^2.9.16",
     "graphql": "^14.6.0",
     "knex": "^0.20.8",
-    "merge-graphql-schemas": "^1.7.6"
+    "merge-graphql-schemas": "^1.7.6",
+    "mysql": "^2.18.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",

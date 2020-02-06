@@ -1,0 +1,6 @@
+type Image {
+    id: ID!,
+    path: String!
+    createdTime: Int
+    updatedTime: Int
+}
