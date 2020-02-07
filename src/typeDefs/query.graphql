@@ -2,4 +2,5 @@ type Query {
     products: [Product]
     productById(id: ID!) : Product
     cartById(id: ID!) : Cart
+    promoById(id: ID!) : Promo
 }

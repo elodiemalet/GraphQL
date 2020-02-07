@@ -1,4 +1,4 @@
 export default async (parent, args, {dataSources}) => {
-    const promo = await dataSources.promo.getPromoById(args.id);
-    return promo;
+    const product = await dataSources.product.getProductById(args.id);
+    return product;
 }
