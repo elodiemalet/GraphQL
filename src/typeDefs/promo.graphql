@@ -1,0 +1,5 @@
+type Promo {
+    id: ID!
+    code: String
+    reduction: Int
+}

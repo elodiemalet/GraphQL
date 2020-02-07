@@ -1,0 +1,8 @@
+type Cart {
+    id: ID!
+    cartproducts: [CartProduct!]!
+    cartpromos: [CartPromo]
+    total: Float
+    createdTime: Int
+    updatedTime: Int
+}

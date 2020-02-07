@@ -1,9 +1,10 @@
-type Product implements ProductInterface {
+type CartProduct implements ProductInterface {
     id: ID!
     name: String
     price: Float
     stock: Stock
     image: Image
+    quantity: Int
     createdTime: Int
     updatedTime: Int
 }

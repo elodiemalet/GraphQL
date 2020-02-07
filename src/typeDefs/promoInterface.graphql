@@ -1,0 +1,5 @@
+interface PromoInterface {
+    id: ID!
+    code: String
+    reduction: Int
+}

@@ -1,4 +1,4 @@
-type Product implements ProductInterface {
+interface ProductInterface {
     id: ID!
     name: String
     price: Float
