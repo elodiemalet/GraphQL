@@ -1,0 +1,3 @@
+type Mutation {
+    addToCart(productInput: ProductInput, cartId: Int): MutationResponse
+}

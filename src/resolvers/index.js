@@ -10,12 +10,17 @@ import getCartProductsByCartId from './cart/getCartProductsByCartId';
 import getCartPromosByCartId   from './cart/getCartPromosByCartId';
 import getCartTotalByCartId    from './cart/getCartTotalByCartId';
 
+import addToCart from './mutation/addToCart';
+
 export default {
     Query: {
         products,
         productById,
         cartById,
         promoById
+    },
+    Mutation: {
+        addToCart
     },
     Product: {
         image,

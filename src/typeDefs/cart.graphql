@@ -6,3 +6,7 @@ type Cart {
     createdTime: Int
     updatedTime: Int
 }
+
+input ProductInput {
+    productId: Int!
+}
