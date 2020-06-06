@@ -23,7 +23,7 @@
   "license": "ISC",
   "dependencies": {
     "apollo-datasource": "^0.6.4",
-    "apollo-server": "^2.9.16",
+    "apollo-server": "^2.14.2",
     "graphql": "^14.6.0",
     "knex": "^0.20.8",
     "merge-graphql-schemas": "^1.7.6",
